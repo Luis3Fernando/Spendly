@@ -1,5 +1,5 @@
-from ui.main_window import MainWindow
+from ui.loading_window import LoadingWindow
 
 if __name__ == "__main__":
-    app = MainWindow()
+    app = LoadingWindow()
     app.mainloop()
