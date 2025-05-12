@@ -7,5 +7,4 @@ class BaseWindow(tk.Tk):
         self.geometry(size)
         self.configure(bg="#121212")
         self.resizable(False, False)
-
         self.setup_ui()

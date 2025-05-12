@@ -19,7 +19,7 @@ class CompraService:
         """
         Devuelve una lista de todas las compras.
         """
-        result = self.collection.find()
+        result = list(self.collection.find())
         return result
 
     def obtener_compra_por_id(self, compra_id: str):
@@ -36,7 +36,6 @@ class CompraService:
         - compra_id: string del ObjectId
         - nuevos_datos: diccionario con los nuevos valores
         """
-
         self.collection.update_one({"_id": ObjectId(compra_id)}, {"$set": nuevos_datos})
         pass
 
@@ -46,3 +45,11 @@ class CompraService:
         - compra_id: string del ObjectId
         """
         self.collection.delete_one({"_id": ObjectId(compra_id)})
+        
+    def obtener_id_por_producto(self, producto: str):
+        """
+        Busca el ID de una compra por su nombre de producto.
+        - producto: string del nombre del producto
+        """
+        compra = self.collection.find_one({"producto": producto})
+        return str(compra["_id"]) if compra else None
