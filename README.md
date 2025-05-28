@@ -45,8 +45,20 @@ Then we can move on to the next section
 
 ---
 ## 🛠 How to use? 
-
+When you run the program you will see the following modal:
 <img src="assets/screenshots/conectando.png" width="600"/>
 
+And then you will get an informative message about the database connection.
+<img src="assets/screenshots/conexion_exitosa.png" width="600"/>
+
+If everything is correct you will see the following interface
 <img src="assets/screenshots/main.png" width="600"/>
+
+You can start filling in the data and the program will do the calculations.
+
+You will be able to edit or delete as you need, as in the following screenshots
+<img src="assets/screenshots/editar.png" width="600"/>
+<img src="assets/screenshots/eliminar.png" width="600"/>
+
+You can adapt the code to your needs or collaborate on a cloud software, thank you very much for reading 📕.
 
