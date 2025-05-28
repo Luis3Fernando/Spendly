@@ -4,6 +4,7 @@
 ![Stars](https://img.shields.io/github/stars/Luis3Fernando/Spendly?style=social)
 
 This is a small project to apply knowledge with NoSQL database, in this project MongoDb is used to make a calculation of the expenses that we will have, in a list made with the purpose of adding items that in the future we will be buying, therefore, calculate the total, minimum and maximum expenses.
+
 ---
 ## 📥 Technologies
 
@@ -16,22 +17,32 @@ This project is powered by:
 
 ---
 ## ⚙️ Installation
+Follow the steps to run it on your local computer:
 
-If you want to download it or adapt it to your environment, follow the steps to run it on your local computer:
+Clone the repository and access:
+```bash
+git clone https://github.com/Luis3Fernando/Spendly
+```
+```bash
+cd Spendly
+```
+Activate virtual environment and install dependencies:
+```bash
+python3 -m venv env
+```
+```bash
+pip install -r requirements.txt
+```
+Start the database, with the file docker-compose.yml
+```bash
+docker-compose up -d
+```
+Now we start the program
+```bash
+pythone app.py
+```
+Then we can move on to the next section
 
-```bash
-git clone https://github.com/Luis3Fernando/Luminle
-```
-```bash
-cd Luminle
-```
-```bash
-npm install
-```
-
-```bash
-npm run dev
-```
 ---
 ## 🛠 How to use? 
 
