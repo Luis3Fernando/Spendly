@@ -51,7 +51,7 @@ When you run the program you will see the following modal:
 And then you will get an informative message about the database connection.
 <img src="assets/screenshots/conexion_exitosa.png" width="600"/>
 
-If everything is correct you will see the following interface
+If everything is correct you will see the following interface.
 <img src="assets/screenshots/main.png" width="600"/>
 
 You can start filling in the data and the program will do the calculations.
